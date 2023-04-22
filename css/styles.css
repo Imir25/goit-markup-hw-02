@@ -4,7 +4,6 @@
 .logo-link {
   text-decoration: none;
 }
-
 .list {
   list-style: none;
 }
@@ -43,24 +42,24 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.15;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .email-contact {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-
+  
   color: #434455;
 }
 
 .contact-nuber {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -68,6 +67,8 @@
   letter-spacing: 0.02em;
 
   color: #434455;
+  
+
 }
 
 /* Hero section */
@@ -78,10 +79,9 @@
 
 .main-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
 
@@ -92,7 +92,7 @@
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.15;
+  line-height: 24px;
   cursor: pointer;
 
   color: #ffffff;
@@ -123,9 +123,8 @@
 
 /* Portfolio section */
 
-.doing-title {
+.portfolio-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -138,9 +137,9 @@
 }
 
 /* Team section */
+
 .our-team {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -154,7 +153,6 @@
 
 .team-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -165,8 +163,6 @@
 
 .our-team-text {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -178,11 +174,71 @@
 
 .footer-text {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
 
   color: #1a1a1f;
+}
+
+/* Button section portfolio */
+
+.button-nav {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  background: #21218f;
+}
+
+/* Project card 1 */
+
+.project-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.project-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+/* Project card 2-3 */
+
+.caption {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+
+.sub {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #434455;
 }
