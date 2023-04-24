@@ -29,15 +29,17 @@
 
 
 .logo-link {
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+font-family: 'Raleway'; 
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
 
+  color: #2E2F42;
   color: #4d5ae5;
 }
 
@@ -50,6 +52,14 @@
   align-items: center;
   letter-spacing: 0.03em;
   color: #2e2f42;
+  color: #f4f4fd 
+}
+
+.menu-link :hover {
+  color: #404bbf
+}
+.menu-link :focus {
+  color: #404bbf
 }
 
 .menu-link {
@@ -102,6 +112,13 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 
+.menu-button :hover{
+  background-color: #404BBF
+}
+.menu-button :focus{
+  background-color: #404BBF
+}
+
 .menu-button {
 	font-family: "Roboto";
 	font-weight: 500;
@@ -112,6 +129,7 @@ color: #FFFFFF;
 	text-transform: none;
   cursor: pointer;
   background-color: #4D5AE5 
+
 }
 
 /* About sectio */
@@ -169,8 +187,11 @@ color: #FFFFFF;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  background-color: #F4F4FD
 
-  color: #2e2f42;
+}
+.team-list {
+  background-color: #FFFFFF
 }
 
 .our-team-text {
@@ -183,6 +204,10 @@ color: #FFFFFF;
 }
 
 /* Footer section */
+
+.footer-section {
+  background-color: #2e2f42
+}
 
 .footer-text {
   font-family: "Roboto";
