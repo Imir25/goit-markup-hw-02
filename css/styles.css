@@ -13,10 +13,13 @@
 	--color-dairy: #fcfcfc;
 }
 .body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #434455
 }
+
 .list {
   list-style: none;
+  background-color: #FFFFFF 
 }
 .link {
   text-decoration: none;
@@ -24,12 +27,12 @@
 
 /* Heder section */
 
+
 .logo-link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.15;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -56,6 +59,10 @@
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.contact-menu{
+  font-style: normal;
 }
 
 .email-contact {
@@ -103,6 +110,8 @@ color: #FFFFFF;
 	letter-spacing: 0.04em;
 	text-decoration: none;
 	text-transform: none;
+  cursor: pointer;
+  background-color: #4D5AE5 
 }
 
 /* About sectio */
@@ -198,7 +207,7 @@ color: #FFFFFF;
   cursor: pointer;
 
   color: #ffffff;
-  background: #404bbf;
+  background-color: #4D5AE5
 }
 
 /* Hero project card */
