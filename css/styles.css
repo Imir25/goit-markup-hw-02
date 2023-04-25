@@ -12,9 +12,15 @@
 	--color-white: #ffffff;
 	--color-dairy: #fcfcfc;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455
+}
+.menu-body > a:hover {
+  color: #404bbf
+}
+.menu-bodya > a:focus {
+  color: #404bbf
 
 }
 
@@ -66,12 +72,7 @@ text-decoration: none;
   color: #f4f4fd 
 }
 
-.menu-link :hover {
-  color: #404bbf
-}
-.menu-link :focus {
-  color: #404bbf
-}
+
 
 .menu-link {
   font-family: "Roboto", sans-serif;
@@ -207,6 +208,7 @@ color: #FFFFFF;
 }
 .team-list {
   background-color: #FFFFFF
+
 }
 
 .our-team-text {
