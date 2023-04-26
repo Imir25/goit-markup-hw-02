@@ -86,7 +86,7 @@ text-decoration: none;
   font-style: normal;
 }
 
-.email-contact {
+.contact {
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
@@ -96,31 +96,14 @@ text-decoration: none;
   color: #434455;
 }
 
-.contact-nuber {
-  font-family: "Roboto";
-  font-style: normal;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-
-  color: #434455;
-}
-
-.email-contact:hover {
+.contact:hover {
   color: #404bbf 
 }
 
-.email-contact:focus { 
+.contact:focus { 
   color: #404bbf
 }
 
-.contact-nuber:hover {
-  color: #404bbf 
-}
-
-.contact-nuber:focus {
-  color: #404bbf
-}
 
 /* Hero section */
 
@@ -255,27 +238,6 @@ color: #FFFFFF;
 /* Button section portfolio */
 
 
-.top-button-nav {
-	font-family: "Roboto", sans-serif;
-	font-weight: 500;
-  font-size: 16px;
-	line-height: 24px;
-	letter-spacing: 0.04em;
-	text-decoration: none;
-	text-transform: none;
-  cursor: pointer;
-
-  color: #ffffff;
-  background-color: #4D5AE5
-}
-
-.top-button-nav:hover {
-  background-color: #404BBF
-}
-.top-button-nav:focus {
-  background-color: #404BBF 
-}
-
 .menu-button-nav {
   font-family: 'Roboto',sans-serif;
   font-weight: 500;
@@ -286,8 +248,8 @@ color: #FFFFFF;
 	text-transform: none;
   cursor: pointer;
 
-  color: #4D5AE5;
-  
+  color: #4d5ae5;
+  background-color: #F4F4FD
 }
 
 .menu-button-nav:hover {
@@ -318,4 +280,8 @@ color: #FFFFFF;
   letter-spacing: 0.02em;
   
   color: #434455;
+}
+
+.project-link {
+  text-decoration: none
 }
