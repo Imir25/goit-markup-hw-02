@@ -205,8 +205,8 @@ color: #FFFFFF;
   background-color: #F4F4FD
 
 }
-.team-list {
-  color:#2e2f42; 
+
+.team-item {
   background-color: #FFFFFF
 
 }
@@ -237,6 +237,27 @@ color: #FFFFFF;
 
 /* Button section portfolio */
 
+
+.menu-button-nav {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+  font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	text-transform: none;
+  cursor: pointer;
+
+  color: #ffffff;
+  background-color: #4D5AE5
+}
+
+.top-button-nav:hover {
+  background-color: #404BBF
+}
+.top-button-nav:focus {
+  background-color: #404BBF 
+}
 
 .menu-button-nav {
   font-family: 'Roboto',sans-serif;
