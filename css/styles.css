@@ -27,7 +27,7 @@ body {
 /* Heder section */
 
 .logo-link {
- font-family: "Raleway";
+ font-family: "Raleway",sans-serif;
  text-transform: uppercase;
  font-weight: 800;
  font-size: 18px;
@@ -38,6 +38,7 @@ body {
 }
 
 .accent-header {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -58,7 +59,7 @@ body {
 .menu-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,6;
+  line-height: 1,5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -75,7 +76,7 @@ body {
 .contact {
   font-style: normal;
   font-size: 16px;
-  line-height: 1,6;
+  line-height: 1,5;
   letter-spacing: 0.02em;
 
   color: #434455;
@@ -93,6 +94,7 @@ body {
 }
 
 .main-title {
+ text-align: center;
  font-weight: 700;
  font-size: 56px;
  line-height: 1.07;
@@ -102,10 +104,12 @@ body {
 }
 
 .menu-button {
+  font-family: "Roboto", sans-serif;
 	font-weight: 500;
   font-size: 16px;
-	line-height: 1,6;
+	line-height: 1,5;
 	letter-spacing: 0.04em;
+  cursor: pointer;
 	text-decoration: none;
 	text-transform: none;
 
@@ -124,7 +128,7 @@ body {
 .about-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1,2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 
   color: #2e2f42;
@@ -132,7 +136,7 @@ body {
 
 .about-text {
   font-size: 16px;
-  line-height: 1,6;
+  line-height: 1,5;
   letter-spacing: 0.02em;
 
   color: #434455;
@@ -145,6 +149,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   
   color: #2e2f42;
@@ -169,9 +174,9 @@ body {
 .team-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1,2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color:  #2e2f42;
   background-color: #F4F4FD
   
@@ -183,7 +188,7 @@ body {
 
 .our-team-text {
   font-size: 16px;
-  line-height: 1,6;
+  line-height: 1,5;
   letter-spacing: 0.02em;
 
   color: #434455;
@@ -197,7 +202,7 @@ body {
 
 .footer-text {
   font-size: 16px;
-  line-height: 1,6;
+  line-height: 1,5;
   letter-spacing: 0.02em;
 
   color: #F4F4FD;
